@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- Div to hold entire game -->
+    <div class='game flex-center'>
+
+
+        <!-- Stats area will hold score, coins, level, timer -->
+        <header class='stats'>
+
+            <!-- Area for Score -->
+            <div id="score-section" class='stat-area'>
+                <div class='flex-left'>MARIO</div>
+                <div class='flex-left' id='score'>00000000000</div>
+            </div>
+
+            <!-- Area for Coins -->
+            <div id="coin-section" class='stat-area'>
+                <div>&nbsp;</div>
+                <div class='flex-center'>
+                    <img class='square-1' src='img/coin_rotate.gif' alt='rotating coin'> x&nbsp;
+                    <span id='coin'>000</span>
+                </div>
+            </div>
+
+            <!-- Area for World -->
+            <div id="level-section" class='stat-area'>
+                <div class='flex-center'>WORLD</div>
+                <div class='flex-center' id='world'>0-0</div>
+            </div>
+
+            <!-- Area for Time -->
+            <div id="timer-section" class='stat-area'>
+                <div class='flex-right'>TIME</div>
+                <div class='flex-right' id='timer'>000</div>
+            </div>
+        </header>
+    </div>
+    <div class='message-row'>
+
+    </div>
+
+    <!-- Section where the action of the game will be played -->
+    <main>
+        <div class='level-container'>
+        </div>
+    </main>
+
+    <script src="js/sound.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/physics.js"></script>
+    <script src="js/collision.js"></script>
+    <script src="js/enemies.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/elements.js"></script>
+    <!-- required by build.js -->
+    <script src="js/build.js"></script>
+    <script src="js/levels.js"></script>
+
+</body>
+
+</html>

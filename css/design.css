@@ -1,0 +1,175 @@
+/* Static Elements */
+.brick,
+.X {
+    background-image: url('../img/brick_block.jpg');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.question,
+.Q {
+    background-image: url('../img/question_block.jpg');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tunnel-1,
+.t {
+    background-image: url('../img/tunnel.png');
+    width: 120px;
+    height: 120px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 200;
+}
+
+.tunnel-3,
+.v {
+    background-image: url('../img/tunnel.png');
+    width: 120px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tunnel-rotated,
+.w {
+    background-image: url('../img/tunnel.png');
+    width: 120px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+.tunnel-side,
+.u {
+    background-image: url('../img/tunnel.png');
+    width: 120px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+.block,
+.b {
+    background-image: url('../img/block.jpg');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.flag,
+.f {
+    background-image: url('../img/marioflag.png');
+    width: 300px;
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.castle,
+.z {
+    background-image: url('../img/castle.png');
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tile,
+.i {
+    background-image: url('../img/tile.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.coin,
+.c {
+    background-image: url('../img/coin.gif');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo,
+.a {
+    background-image: url('../img/logo.png');
+    width: 600px;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.enter,
+.e {
+    background-image: url('../img/enter.png');
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.switch,
+.p {
+    background-image: url('../img/switch.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Players */
+.mario {
+    background-image: url('../img/mario.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.luigi {
+    background-image: url('../img/mario.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mariodead {
+    background-image: url('../img/mariodead.gif');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* enemies */
+.goomba {
+    background-image: url('../img/goomba.png');
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.slideshow,
+.y {
+    background-image: url('../img/slideshow/slide1.jpg');
+    width: 900px;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    visibility: hidden;
+}
